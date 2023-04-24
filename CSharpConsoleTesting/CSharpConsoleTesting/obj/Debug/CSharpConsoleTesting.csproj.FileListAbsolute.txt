@@ -1,0 +1,8 @@
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\bin\Debug\CSharpConsoleTesting.exe.config
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\bin\Debug\CSharpConsoleTesting.exe
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\bin\Debug\CSharpConsoleTesting.pdb
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\obj\Debug\CSharpConsoleTesting.csproj.AssemblyReference.cache
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\obj\Debug\CSharpConsoleTesting.csproj.SuggestedBindingRedirects.cache
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\obj\Debug\CSharpConsoleTesting.csproj.CoreCompileInputs.cache
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\obj\Debug\CSharpConsoleTesting.exe
+C:\ValorLocal\Git\GitRepositories\CSharpTesting\CSharpConsoleTesting\CSharpConsoleTesting\obj\Debug\CSharpConsoleTesting.pdb
