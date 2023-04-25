@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CSharpConsoleTesting/.vs/CSharpConsoleTesting/v17/.suo
+*.vsidx
+/CSharpConsoleTesting/.vs/CSharpConsoleTesting/FileContentIndex/e737a463-aa4b-41d6-a9a4-cad3b59559ac.vsidx
+/CSharpConsoleTesting/CSharpConsoleTesting/obj/Debug/CSharpConsoleTesting.pdb
+/CSharpConsoleTesting/CSharpConsoleTesting/obj/Debug/CSharpConsoleTesting.exe
+/CSharpConsoleTesting/CSharpConsoleTesting/bin/Debug/CSharpConsoleTesting.pdb
+/CSharpConsoleTesting/CSharpConsoleTesting/bin/Debug/CSharpConsoleTesting.exe
