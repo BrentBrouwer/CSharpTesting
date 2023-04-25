@@ -12,19 +12,17 @@ namespace CSharpConsoleTesting
         {
             Console.WriteLine("Application Started");
 
-            // Check if a substring is detected in a list of strings
-            List<string> StringList = new List<string>();
+            Dictionary<string, string> Test = new Dictionary<string, string>();
+            Test.Add("1", "Red");
+            Test.Add("2", "Blue");
+            Test.Add("3", "Blue");
+            Test.Add("4", "Green");
 
-            StringList.Add("B1art");
-            StringList.Add("P2eter");
-            StringList.Add("P3iet");
-
-            foreach (string str in StringList) 
+            List<string> test1 = new List<string>();
+            foreach (string Msg in Test.Values.Distinct()) 
             {
-                if (str.Contains("2"))
-                {
-                    Console.WriteLine(str);
-                }
+                string Key = Test.FirstOrDefault(x => x.Value == Msg).Key;
+                test1.Add(Key +  Msg);
             }
 
             // Prevent the Application from stopping
