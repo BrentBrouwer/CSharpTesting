@@ -12,6 +12,7 @@ namespace CSharpConsoleTesting
         {
             Console.WriteLine("Application Started");
 
+            /*
             Dictionary<string, string> Test = new Dictionary<string, string>();
             Test.Add("1", "Red");
             Test.Add("2", "Blue");
@@ -24,6 +25,16 @@ namespace CSharpConsoleTesting
                 string Key = Test.FirstOrDefault(x => x.Value == Msg).Key;
                 test1.Add(Key +  Msg);
             }
+            */
+
+            // Find the Index of the first int
+            string MessageIDMsg = "{\"MI\":3327455,";
+            int IDIndex = MessageIDMsg.IndexOfAny("0123456789".ToCharArray());
+            string MessageIDStr = MessageIDMsg.Substring(0, IDIndex);
+            string MessageIDInt = MessageIDMsg.Substring(IDIndex, MessageIDMsg.Length - IDIndex - 1);
+            Int32.TryParse(MessageIDInt, out int MsgID);
+            MsgID++;
+            MessageIDMsg = "{\"MI\":" + MsgID.ToString() + ",";
 
             // Prevent the Application from stopping
             Console.ReadLine();
